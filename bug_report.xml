@@ -1,1 +1,9 @@
-
+<ID>1-SU</ID>
+  <Summary>Страница регистрации, ввод невалидного номера</Summary>
+  <Priority>Medium</Priority>
+  <Severity>Minor</Severity>
+  <STR>Перейти по ссылке: https://id2.action-media.ru/Account/Registration?appid=10475&callbackurl=https%3A%2F%2Fenter.business.ru&rand=948b2e092da36905f8fbe6aaa5d4965b&sig=f5c3ef30b6c0fd6b2879bf46ae330823& ; Ввести невалидный номер </STR>
+  <Expected Result> При вводе номера включается ограничение на кол-во символов для мобильных номеров указывается корректная вторая цифра (9) для номеров РФ </Expected Result>
+  <Actual Result> Можно ввести любые символы, не выходит ошибки о некорректном номере телефона </Actual Result>
+  <Environment> Windows 10. Google Chrome v. 95.0.4638.69 </Environment>
+  <Link> https://inrared.nimbusweb.me/s/share/6272281/d0cqphnu2uuok81g5ob8 </Link>
